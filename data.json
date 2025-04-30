@@ -1,0 +1,326 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "hei",
+        "ello",
+        "Hello",
+        "Hey",
+        "What's up",
+        "Hey there",
+        "Good evening",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! Pick a genre?",
+        "Hey! Need a film suggestion?",
+        "Hi there!",
+        "Hey! I'm full of suggestions today. What genre are you looking for?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodnight",
+        "Catch you later",
+        "I’m done"
+      ],
+      "responses": [
+        "Bye! Enjoy your movie!",
+        "Catch you next time!",
+        "See you later!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thx",
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Appreciate it",
+        "ok","okay","oki"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime! Enjoy your film!",
+        "Glad to help!"
+      ]
+    },
+    {
+      "tag": "comedy",
+      "patterns": [
+        "I want to laugh",
+        "Recommend a comedy",
+        "Funny movie",
+        "Make me laugh",
+        "I need a comedy",
+        "Something fun",
+        "comedy",
+        "I want a comedy movie",
+        "Give me a good comedy",
+        "Need a comedy"
+      ],
+      "responses": [
+        "Try \"Meet the Parents\" or \"Big Daddy\" – guaranteed laughs!",
+        "\"Step Brothers\" is a classic pick!",
+        "Go for \"The Hangover\" if you're in the mood for chaos!",
+        "Try Don't Look Up it's pretty popular!",
+        "I think you might like \"Knives Out\"! It's clever, mysterious and funny!",
+        "\"Shrek\" is always a good option ;)",
+        "The new \"Barbie\" movie is pretty fun.",
+        "The movie \"Baby Driver\" might be the option for you!",
+        "If you are a bit eccentric try \"Pitch Perfect\" ;)",
+        "Watch \"Superbad\", it’s hilarious!",
+        "\"The Nice Guys\" is packed with action and comedy.",
+        "You’ll enjoy \"The 40-Year-Old Virgin\".",
+        "Try watching \"Game Night\", it’s clever and funny.",
+        "How about \"We’re the Millers\"?",
+        "\"Crazy Rich Asians\" is fun and extravagant.",
+        "\"The Heat\" has a great duo and lots of laughs.",
+        "Give \"The Mask\" a go, Jim Carrey shines!",
+        "\"Clueless\" is a nostalgic rom-com.",
+        "Try \"Tropic Thunder\" for some wild humor."
+      ]
+    },
+    {
+      "tag": "action",
+      "patterns": [
+        "Action movie",
+        "Explosive",
+        "action",
+        "Recommend action",
+        "Adrenaline film",
+        "Fast-paced movie",
+        "I want an action movie",
+        "Give me a good action",
+        "Need an action"
+      ],
+      "responses": [
+        "You might enjoy \"John Wick\" or \"Mad Max: Fury Road\"!",
+        "\"Extraction\" is packed with intense scenes.",
+        "Try \"Mission: Impossible – Fallout\" for nonstop action!",
+        "I think anything from the series of \"007\" movies might suit you!",
+        "\"Hunger Games\" is always a good option!",
+        "You can try \"Red Notice\", it's clever and full of action!",
+        "I think you might enjoy Marvel movies; try \"Spiderman\" or \"Doctor Strange\"!",
+        "I think \"Jumanji\" might suit you!",
+        "\"Fast and Furious\" movies are classics! You should try them!",
+        "\"Die Hard\" is a classic action film.",
+        "\"The Dark Knight\" is intense and thrilling.",
+        "Watch \"Gladiator\" for epic battles.",
+        "\"The Equalizer\" offers smart action.",
+        "\"Taken\" is suspenseful and fast-paced.",
+        "\"Skyfall\" is a great James Bond movie.",
+        "Try \"The Bourne Identity\", it’s gripping.",
+        "\"Edge of Tomorrow\" mixes action with sci-fi.",
+        "\"Man on Fire\" is emotional and intense.",
+        "\"The Old Guard\" is a fresh action concept."
+      ]
+    },
+    {
+      "tag": "romance",
+      "patterns": [
+        "Love story",
+        "Romantic movie",
+        "Something emotional",
+        "Date night movie",
+        "Rom-com",
+        "Romance",
+        "I want a romance movie",
+        "Give me a good romance",
+        "Need a romance",
+        "Need a love story"
+      ],
+      "responses": [
+        "Go for \"The Notebook\" or \"Pride and Prejudice\"",
+        "\"La La Land\" is visually beautiful and romantic.",
+        "Try \"To All the Boys I've Loved Before\" for a modern rom-com.",
+        "You might like \"The Holiday\". It's one of my faves! ",
+        "If you are looking for something dreamy try \"Toscana\". Italy never fails!",
+        "\"Eat,Pray,Love\" is the one to go with!",
+        "I think \"A star was born\" might be exactly what you are looking for!",
+        "\"Love & Gelato\" is an emotional, teen love story. You might like it!",
+        "\"Me Before You\" is romantic and emotional.",
+        "\"The Fault in Our Stars\" is touching.",
+        "\"About Time\" is sweet and time-traveling.",
+        "Try \"Notting Hill\", it’s a classic.",
+        "\"Titanic\" – can’t go wrong.",
+        "\"500 Days of Summer\" is beautifully told.",
+        "\"The Vow\" is based on a true story.",
+        "Watch \"Letters to Juliet\".",
+        "\"Dear John\" is intense and heartfelt.",
+        "Try \"The Longest Ride\", it’s charming."
+      ]
+    },
+    {
+      "tag": "sci-fi",
+      "patterns": [
+        "Sci-fi movie",
+        "Futuristic film",
+        "I want something sci-fi",
+        "Aliens or space stuff",
+        "High-tech movies",
+        "SF",
+        "sci-fi",
+        "I want a SF movie",
+        "Give me a good SF",
+        "Give me a good sci-fi movie",
+        "Need a SF",
+        "Need a sci-fi"
+      ],
+      "responses": [
+        "\"Interstellar\" and \"The Martian\" are must-watch!",
+        "\"Blade Runner 2049\" is a visual masterpiece.",
+        "If you're into space, try \"Gravity\" or \"Arrival\".",
+        "\"Atlas\" is one of the best I've heard!",
+        "\"Divergent\" is a classic! You would totally like it!",
+        "Maybe \"Assassin's Creed\" is what you are looking for!",
+        "I think \"Man in Black\" is a good choice!",
+        "You might like \"Project Power\"!",
+        "You should totally watch \"Lucy\"! It's amazing!",
+        "\"Edge of Tomorrow\" is clever and action-packed.",
+        "\"I Am Legend\" is suspenseful.",
+        "\"Looper\" is mind-bending.",
+        "\"Oblivion\" is futuristic and beautiful.",
+        "\"The Matrix\" is iconic sci-fi.",
+        "\"Minority Report\" is ahead of its time.",
+        "\"The Fifth Element\" is colorful and bold.",
+        "\"Snowpiercer\" is dystopian and smart.",
+        "\"District 9\" is gritty and gripping.",
+        "\"Ready Player One\" is a visual thrill."
+      ]
+    },
+    {
+      "tag": "feel_good",
+      "patterns": [
+        "I'm sad",
+        "Cheer me up",
+        "Feel-good movie",
+        "Something happy",
+        "In a bad mood",
+        "Give me a good movie",
+        "Give me a feel good movie"
+      ],
+      "responses": [
+        "\"Paddington 2\" is pure joy!",
+        "Watch \"Forrest Gump\" – it’s heartfelt and inspiring.",
+        "Try \"The Secret Life of Walter Mitty\" for a beautiful mood lift.",
+        "You might enjoy \"Despicable Me\"! It will make you smile for sure!",
+        "Try \"Garfield\" if you feel like watching a cute orange cat!",
+        "\"Karate Kid\" would be a great movie to watch!",
+        "Anything from Disney might cheer you up! Try \"Kung Fu Panda\"!",
+        "\"Sing\" is energetic and joyful.",
+        "\"Julie & Julia\" is cozy and inspiring.",
+        "\"School of Rock\" brings good vibes.",
+        "\"Yes Day\" is fun for everyone.",
+        "\"The Hundred-Foot Journey\" is lovely.",
+        "\"Chef\" is a feel-good foodie movie.",
+        "\"Paddington\" is charming for all ages.",
+        "\"The Intouchables\" is touching and uplifting.",
+        "\"Matilda\" is whimsical and clever.",
+        "\"The Pursuit of Happyness\" is deeply inspiring."
+      ]
+    },
+    {
+      "tag": "horror",
+      "patterns": [
+        "Scary movie",
+        "Horror film",
+        "Something spooky",
+        "Make me scream",
+        "Ghost movie",
+        "Horror",
+        "Thriller",
+        "Give me a good horror",
+        "Give me a good thriller",
+         "I want a horror movie",
+         "I want a thriller movie",
+        "Need a horror",
+        "Need a thriller"
+      ],
+      "responses": [
+        "\"Hereditary\" is seriously creepy.",
+        "\"The Conjuring\" and \"Insidious\" are great if you like ghosts!",
+        "Try \"Get Out\" for a smart, psychological horror.",
+        "\"Bird box\" is terrifying, you should try it!",
+        "Maybe \"IT\" might be it yor you! ;)",
+        "You could watch \"Annabelle\", if you dare!",
+        "\"Scream\" might be the one you are looking for!",
+        "\"The Babadook\" is truly unsettling.",
+        "\"Midsommar\" is scary in daylight.",
+        "\"The Ring\" is haunting.",
+        "\"Sinister\" is nightmare fuel.",
+        "\"Us\" is creepy and deep.",
+        "\"The Others\" has an eerie twist.",
+        "\"A Quiet Place\" is tense and original.",
+        "\"The Witch\" is slow-burn horror.",
+        "\"The Grudge\" is classic J-horror.",
+        "\"28 Days Later\" is post-apocalyptic terror."
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "What should I watch?",
+        "Give me a good movie",
+        "Movie suggestion?",
+        "What's your pick?",
+        "Recommend something",
+        "Recommend me a movie",
+        "Give me a good recommendation",
+        "recommendation",
+        "Need your recommendation"
+      ],
+      "responses": [
+        "How about \"Inception\"? Mind-blowing stuff!",
+        "\"Knives Out\" is super fun and smart.",
+        "\"The Social Network\" – gripping, smart, and stylish!",
+        "\"The Zodiac\" is very captivating and a good choice if you want a true-crime story!",
+        "You can't fail with \"Pirates of the Caribbean\"!",
+        "\"Dune\" is trending right now, give it a try!",
+        "\"It ends with us\" is pretty popular, might be the one for you!?",
+        "\"Avatar\" is one of the best!",
+        "\"Don't worry darling\" is really good; i think you might enjoy it!",
+        "\"Whiplash\" is powerful and intense.",
+        "\"Parasite\" is smart and shocking.",
+        "\"The Truman Show\" is thoughtful and creative.",
+        "\"Little Women\" is beautifully made.",
+        "\"The Grand Budapest Hotel\" is quirky and colorful.",
+        "\"Jojo Rabbit\" blends humor and heartbreak.",
+        "\"The Imitation Game\" is brilliant and inspiring.",
+        "\"The Curious Case of Benjamin Button\" is magical.",
+        "\"Amélie\" is artistic and feel-good.",
+        "\"The Green Mile\" is unforgettable."
+      ]
+    },
+    {
+      "tag": "actor_movie",
+      "patterns": [
+        "I want a movie with Leonardo DiCaprio",
+        "Got anything with Emma Stone?",
+        "Movie starring Ryan Gosling?",
+        "Something with Keanu Reeves",
+        "Do you have a film with Natalie Portman?",
+        "I like The Rock, any suggestion?",
+        "Maybe something where Tom Cruise plays?",
+        "Would love to see Brad Pitt in a movie",
+        "Maybe something with Robert De Niro",
+        "I want a classic Alpacino please",
+        "I want to watch a Meryl Streep movie"
+      ],
+      "responses": [
+        "Let me find something with that actor for you.",
+        "Sure! Let me check my recommendations.",
+        "Ah, good taste! Here’s one with them...",
+        "Very good choice, here are some options: ",
+        "Amazing! I can think of some good movies for you ;)"
+      ]
+    }
+  ]
+}
