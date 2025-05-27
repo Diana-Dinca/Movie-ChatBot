@@ -43,13 +43,16 @@
         "Thanks",
         "Thank you",
         "Thanks a lot",
+        "great",
         "Appreciate it",
         "ok","okay","oki"
       ],
       "responses": [
         "You're welcome!",
         "Anytime! Enjoy your film!",
-        "Glad to help!"
+        "Glad to help!",
+        "No problem",
+        "Happy to help!"
       ]
     },
     {
@@ -162,6 +165,7 @@
       "tag": "sci-fi",
       "patterns": [
         "Sci-fi movie",
+        "Fantasy",
         "Futuristic film",
         "I want something sci-fi",
         "Aliens or space stuff",
